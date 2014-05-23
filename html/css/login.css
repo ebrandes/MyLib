@@ -1,3 +1,24 @@
 body {
-	background: #c40;
+	
+}
+
+.frmLogin form {
+	width: 55%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+.frmLogin a {
+	float: right;
+}
+
+
+.tituloPrincipal {
+	margin-top: 50px;
+	color: #3498db;
+}
+
+
+.bemVindo {
+	color: #34495e !important;
 }
