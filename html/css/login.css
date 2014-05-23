@@ -25,3 +25,9 @@ body {
 .bemVindo {
 	color: #34495e !important;
 }
+
+.smallImg {
+	width: 10%;
+	float: right;
+	cursor: pointer;
+}

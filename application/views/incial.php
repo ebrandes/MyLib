@@ -45,6 +45,12 @@
 					</div>
 					<button type="submit" class="btn btn-primary">Logar-se</button>
 					<a href="#" class="text-right esqSenha">esqueci minha senha</a>
+
+					<div class="form-group">
+						<img src="/html/imgs/googleIcon.png" class="img-responsive smallImg" alt="logar-se com google" title="Logar-se com o google" />
+						<img src="/html/imgs/facebookIcon.png" class="img-responsive smallImg" alt="logar-se com facebook" title="Logar-se com facebook" />
+					</div>
+
 				</form>
 			</div>
 			<div class="col-md-4"></div>
