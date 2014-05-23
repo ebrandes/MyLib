@@ -13,7 +13,7 @@ class Uteis {
 
 	public function loadJs($arrayJS){
 
-		foreach ($arrayJS as $js) {
+	 	foreach ($arrayJS as $js) {
 			echo "<script type='text/javascript' src='/html/js/$js'></script>";
 		}
 
