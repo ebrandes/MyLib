@@ -1,0 +1,16 @@
+body {
+	background: url("/html/imgs/bg-login.jpg") fixed no-repeat center center;
+}
+
+.frmCadastroUsuario {
+	border: 1px dashed #3498db;
+	padding: 3%;
+}
+
+.subTitulo {
+	margin-left:-2%;
+}
+
+.btnCadastrar {
+	margin-top: 3%;
+}
