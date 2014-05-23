@@ -1,5 +1,5 @@
 body {
-	
+	background: url("/html/imgs/bg-login.jpg") fixed no-repeat center center;
 }
 
 .frmLogin form {
@@ -10,12 +10,15 @@ body {
 
 .frmLogin a {
 	float: right;
+	
 }
-
 
 .tituloPrincipal {
 	margin-top: 50px;
-	color: #3498db;
+}
+
+.esqSenha {
+	margin-top: 2%;
 }
 
 
