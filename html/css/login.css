@@ -3,8 +3,8 @@ body {
 }
 
 .frmLogin form {
-	width: 55%;
-	margin-left: 25%;
+	width: 75%;
+	margin-left: 15%;
 	margin-top: 10%;
 }
 
@@ -27,7 +27,18 @@ body {
 }
 
 .smallImg {
-	width: 10%;
-	float: right;
+	width: 100%;
 	cursor: pointer;
 }
+
+.iconsLogin {
+	float: right;
+}
+
+.iconsLogin a {
+	width: 50%;
+	height: 40%;
+	display: block;
+	float: right;
+}
+

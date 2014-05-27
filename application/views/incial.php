@@ -36,7 +36,7 @@
 			<div class="col-md-4">
 				<form role="form">
 					<div class="form-group">
-						<label for="login">Login</label><a href="usuario/cadastrar" class="text-right"> Ainda não tenho uma conta</a>
+						<label for="login">Login</label><a href="/index.php/usuario/cadastrar" class="text-right"> Ainda não tenho uma conta</a>
 						<input type="email" class="form-control" id="login" placeholder="Utilize o login ou seu email">
 					</div>
 					<div class="form-group">
@@ -46,15 +46,21 @@
 					<button type="submit" class="btn btn-primary">Logar-se</button>
 					<a href="#" class="text-right esqSenha">esqueci minha senha</a>
 
-					<div class="form-group">
-						<img src="/html/imgs/googleIcon.png" class="img-responsive smallImg" alt="logar-se com google" title="Logar-se com o google" />
-						<img src="/html/imgs/facebookIcon.png" class="img-responsive smallImg" alt="logar-se com facebook" title="Logar-se com facebook" />
+					<div class="form-group iconsLogin">
+						<a href="<?php if(isset($login_url)) { echo $login_url; } else { echo $logout_url; } ?>"><img src="/html/imgs/googleIcon.png" class="img-responsive smallImg" alt="logar-se com google" title="Logar-se com o google" /></a>
+						<a href="/index.php/site/login"><img src="/html/imgs/facebookIcon.png" class="img-responsive smallImg" alt="logar-se com facebook" title="Logar-se com facebook" /></a>
 					</div>
 
 				</form>
 			</div>
 			<div class="col-md-4"></div>
 		</div>
+
+	<?php 
+			if(isset($user_profile)) {
+				echo $user_profile;
+			}
+	?>
 
 	</div>
 </body>
