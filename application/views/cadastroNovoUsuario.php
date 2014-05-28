@@ -13,7 +13,7 @@
 		<div class="col-md-4"></div>
 		<div class="col-md-4 frmCadastroUsuario">
 
-			<form role="form">
+			<?php echo form_open_multipart('/usuario/do_upload');?>
 				<div class="form-group">
 					<label for="nome">Nome completo</label>
 					<input type="text" class="form-control" name="nome" id="nome" placeholder="Nome completo">
@@ -32,11 +32,11 @@
 				</div>
 				<div class="form-group">
 					<label for="senha">Repita sua senha</label>
-					<input type="password" class="form-control" name="senha" id="senha" placeholder="Senha">
+					<input type="password" class="form-control" name="senhaR" id="senha" placeholder="Senha">
 				</div>
 				<div class="form-group">
 					<label for="foto">Imagem / Avatar</label>
-					<input type="file" id="foto">
+					<input type="file" id="userfile" name="userfile">
 					<p class="help-block">Escolha uma foto para utilizar como avatar.</p>
 				</div>
 				<div class="checkbox">
@@ -44,7 +44,7 @@
 						<input type="checkbox"> <a href="#">Aceito os termos e condições do TCHEbooks.COM</a>
 					</label>
 				</div>
-				<button type="submit" class="btn btn-primary btnCadastrar">Cadastrar</button>
+				<input type="submit" class="btn btn-primary btnCadastrar" value="Cadastrar" />
 				<a href="/site" class="btn btn-default btnCadastrar">Cancelar</a>
 			</form>
 
